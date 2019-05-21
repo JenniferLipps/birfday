@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import apiKeys from './helpers/apiKeys.json';
 import '../styles/main.scss';
 import 'bootstrap';
-import authString from './components/auth';
+import authString from './components/auth/auth';
 import birfString from './components/birfday';
 
 const init = () => {
